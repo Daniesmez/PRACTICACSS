@@ -1,0 +1,23 @@
+*{ font-family:Arial, Helvetica, sans-serif
+}
+
+header{
+background-color: azure;
+text-align: center;
+padding: 1rem;
+}
+
+.TablaDiccionario{
+    background-color: aquamarine;
+    justify-items: center;
+    margin: 5rem;
+    padding: 1rem;
+}
+
+table, td{
+    font-size: larger;
+    border: 1px solid black ;
+    border-collapse: collapse;
+    padding-left: 2rem; 
+    padding-right: 2rem;
+}
