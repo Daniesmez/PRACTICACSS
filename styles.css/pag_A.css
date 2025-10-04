@@ -21,3 +21,19 @@ section div img {
     height: 200px;
     border-radius: 8px;
 }
+
+#btnVolver{
+    background-color: #7add71;
+    border-radius: 2rem;
+    padding: 1rem;
+    text-decoration: none;
+    border-style:solid ;
+    border-color:#2c3e50;
+
+}
+
+footer{
+    background-color: #4a90e2;
+padding: 2rem;
+margin-top: 1rem;
+}
