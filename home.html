@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css/home.css">
 </head>
+<style>
+    *{ font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+header{
+background-color: #4a90e2;
+text-align: center;
+padding: 1rem;
+}
+
+.TablaDiccionario{
+    justify-items: center;
+    margin: 5rem;
+    padding: 1rem;
+}
+
+table, td{
+    font-size: larger;
+    border: 1px solid black ;
+    border-collapse: collapse;
+    padding-left: 2rem; 
+    padding-right: 2rem;
+}
+
+td:hover{ /* Cambia el color de fondo al pasar el mouse */
+    background-color: rgb(10, 38, 116);
+    cursor: pointer; /* Cambia el cursor para indicar que es interactivo */
+    color: white;
+}
+
+
+</style>
 <body>
     <header> <h1>DICCIONARIO.COM</h1>  </header>
 
@@ -17,7 +49,7 @@
         <table>
             <tr>
                 <td style="color: rgb(70, 14, 160);"><a href="pagina_letraA.html">A</a></td> 
-                <td style="color: rgb(70, 14, 160);">B</td> 
+                <td style="color: rgb(70, 14, 160);"><a href="pagina_letraB.html">B</a></td> 
                 <td>C</td>
                 <td style="color: rgb(70, 14, 160);"><a href="pagina_letraD.html">D</a></td>
                 <td style="color: rgb(70, 14, 160);"><a href="pagina_letraE.html">E</a></td>
@@ -54,4 +86,5 @@
     </div>
 
 </body>
+
 </html>
