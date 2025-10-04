@@ -4,7 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css/pag_A.css">
+    <style>
+        /* Aplica a toda la página */
+        body {
+        font-family: Arial, Helvetica, sans-serif; /* Tipo de letra */
+        background-color: #f0f4f8; /* Fondo suave */
+        margin: 0;
+        padding: 0;
+        text-align: center; /* Centra el contenido */
+        }
+
+        /* Encabezado */
+        header {
+            background-color: #4a90e2; /* Azul bonito */
+            color: white;
+            padding: 20px;
+            border-bottom: 5px solid #2c3e50;
+        }
+
+        .vocabulario{ /* todo el bloque del vocabulario   */
+        margin: 2rem;
+        margin-left: 5rem;
+        }
+
+        /* Imágenes */
+        section div img {
+            width: 300px;       /* Todas del mismo tamaño */
+            height: 200px;
+            border-radius:  8px;
+            border-style: solid;
+            border-width: 3px;
+        }
+
+        .container{ /* bluque de palabra */
+        display: flex;
+        margin: 2rem ;
+        border-bottom: 3px solid;
+        align-items: center;
+        }
+
+        img{
+            margin-left: auto;
+            margin-right: 2rem;
+            margin-bottom: 1rem;
+        }
+        #btnVolver{
+            background-color: #7add71;
+            border-radius: 2rem;
+            padding: 1rem;
+            text-decoration: none;
+            border-style:solid ;
+            border-color:#2c3e50;
+
+        }
+
+        footer{
+            background-color: #4a90e2;
+        padding: 2rem;
+        margin-top: 1rem;
+        }
+
+    </style>
 </head>
 <body>
     <header>
@@ -12,36 +72,37 @@
         <p>En esta página encontraremos las palabras más comunes para la letra H</p>
     </header>
 
-    <section>
-        <div>
+    <section class="vocabulario">
+        <div class="container">
             <p><b>1. Hacha:</b >Herramienta con una hoja afilada y un mango, usada para cortar madera. </p>
             <img src="imagenes/LetraH/Hacha.webp" alt="Árbol">
         </div>
 
-        <div>
+        <div class="container">
             <p><b>2. Hambre:</b>La necesidad o ganas de comer. </p>
             <img src="imagenes/LetraH/Hambre.jpg" alt="Avión">
         </div>
 
-        <div>
+        <div class="container">
             <p><b>3. Hamaca:</b> Una cama o columpio hecho de tela, que se cuelga entre dos puntos. </p>
             <img src="imagenes/LetraH/Hamaca.jpg" alt="Agua">
         </div>
 
-        <div>
+        <div class="container">
             <p><b>4. Hormiga:</b> Insecto pequeño que vive en colonias organizadas. </p>
             <img src="imagenes/LetraH/Hormiga.jpg" alt="Amigo">
         </div>
 
-        <div>
+        <div class="container">
             <p><b>5. Hielo:</b> Agua en estado sólido, por debajo de 0°C de temperatura. </p>
             <img src="imagenes/LetraH/Hielo.avif" alt="Animal">
         </div>
 
-        <footer>    
-            <a href="home.html" id="btnVolver">Volver al inicio</a>
-        </footer>
+        
 
     </section>
+    <footer>    
+            <a href="home.html" id="btnVolver">Volver al inicio</a>
+        </footer>
 </body>
 </html>
