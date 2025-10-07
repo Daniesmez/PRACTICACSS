@@ -3,86 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Diccionario Letra A</title>
+    <style>
+        /* Estilo general */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1e5726; /* Fondo oscuro */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #f0f0f0; /* Texto claro para contraste */
+        }
+
+        header {
+            background-color: #7ce06f; /* Azul del header */
+            color: white;
+            padding: 20px;
+            border-bottom: 5px solid #1e792d;
+        }
+
+        /* Contenedor de cada palabra */
+        .container {
+            display: flex;
+            align-items: center;
+            margin: 2rem auto;
+            padding: 1rem;
+            max-width: 900px;
+            background-color: #428834; /* Verde */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            border-bottom: 3px solid #193b1e;
+        }
+
+        /* Imagen a la derecha con borde negro */
+        .container img {
+            width: 200px;
+            height: 150px;
+            border-radius: 8px;
+            margin-left: auto;
+            margin-right: 2rem;
+            border: 3px solid #000;
+        }
+
+        /* Texto alineado a la izquierda */
+        .container p {
+            text-align: left;
+            margin: 0;
+        }
+
+        /* Botón volver */
+        #btnVolver {
+            background-color: #ffcc00; /* Amarillo para contraste */
+            border-radius: 2rem;
+            padding: 1rem 2rem;
+            text-decoration: none;
+            border: solid 1px #818181;
+            color: #1a1d2b;
+            display: inline-block;
+            margin-top: 2rem;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        #btnVolver:hover {
+            background-color: #ffd633;
+            transform: scale(1.05);
+        }
+
+        footer {
+            background-color: #3db139;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
+    </style>
 </head>
-<style>
-    /* Aplica a toda la página */
-body {
-    font-family: Arial, Helvetica, sans-serif; /* Tipo de letra */
-    background-color: #f0f4f8; /* Fondo suave */
-    margin: 0;
-    padding: 0;
-    text-align: center; /* Centra el contenido */
-}
-
-/* Encabezado */
-header {
-    background-color: #4a90e2; /* Azul bonito */
-    color: white;
-    padding: 20px;
-    border-bottom: 5px solid #2c3e50;
-}
-
-/* Imágenes */
-section div img {
-    width: 300px;       /* Todas del mismo tamaño */
-    height: 200px;
-    border-radius: 8px;
-}
-
-#btnVolver{
-    background-color: #057e23;
-    border-radius: 2rem;
-    padding: 1rem;
-    text-decoration: none;
-    border-style:solid ;
-    border-color:#818181;
-    color: #ffffff;
-}
-
-footer{
-    background-color: #4a90e2;
-padding: 2rem;
-margin-top: 1rem;
-}
-
-</style>
 <body>
     <header>
         <h1>Diccionario - Letra A</h1>
         <p>En esta página encontraremos las palabras más comunes para la letra A</p>
     </header>
 
-    <section>
-        <div>
-            <p><b>1. Árbol:</b> Planta de gran tamaño con tronco leñoso y ramas </p>
+    <section class="vocabulario">
+        <div class="container">
+            <p><b>1. Árbol:</b> Planta de gran tamaño con tronco leñoso y ramas.</p>
             <img src="imagenes/LetraA/imgArbol.jpg" alt="Árbol">
         </div>
 
-        <div>
-            <p><b>2. Avión:</b> Aeronave que se utiliza para el transporte aéreo de personas o mercancías</p>
+        <div class="container">
+            <p><b>2. Avión:</b> Aeronave que se utiliza para el transporte aéreo de personas o mercancías.</p>
             <img src="imagenes/LetraA/imgAvion.jpg" alt="Avión">
         </div>
 
-        <div>
-            <p><b>3. Agua:</b> Sustancia líquida, incolora, inodora e insípida que forma los ríos, lagos y mares</p>
+        <div class="container">
+            <p><b>3. Agua:</b> Sustancia líquida, incolora, inodora e insípida que forma los ríos, lagos y mares.</p>
             <img src="imagenes/LetraA/imgAgua.jpg" alt="Agua">
         </div>
 
-        <div>
-            <p><b>4. Amigo:</b> Persona con la que se tiene una relación de afecto, confianza y camaradería</p>
+        <div class="container">
+            <p><b>4. Amigo:</b> Persona con la que se tiene una relación de afecto, confianza y camaradería.</p>
             <img src="imagenes/LetraA/imgAmigo.jpg" alt="Amigo">
         </div>
 
-        <div>
-            <p><b>5. Animal:</b> Ser vivo que se caracteriza por su capacidad de movimiento y sensibilidad</p>
+        <div class="container">
+            <p><b>5. Animal:</b> Ser vivo que se caracteriza por su capacidad de movimiento y sensibilidad.</p>
             <img src="imagenes/LetraA/imgAnimal.jpg" alt="Animal">
         </div>
 
         <footer>    
             <a href="home.html" id="btnVolver">Volver al inicio</a>
         </footer>
-
     </section>
 </body>
 </html>

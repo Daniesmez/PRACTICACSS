@@ -1,113 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        /* Aplica a toda la página */
+    <title>Diccionario - Letra H</title>
+<style>
+        /* Estilo general */
         body {
-        font-family: Arial, Helvetica, sans-serif; /* Tipo de letra */
-        background-color: #f0f4f8; /* Fondo suave */
-        margin: 0;
-        padding: 0;
-        text-align: center; /* Centra el contenido */
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #247e79; /* Fondo oscuro */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            color: #f0f0f0; /* Texto claro para contraste */
         }
 
-        /* Encabezado */
         header {
-            background-color: #4a90e2; /* Azul bonito */
+            background-color: #266e59; /* Azul del header */
             color: white;
             padding: 20px;
-            border-bottom: 5px solid #2c3e50;
+            border-bottom: 5px solid #0e6d5d;
+        }
+        
+        /* Contenedor de cada palabra */
+        .container {
+            display: flex;
+            align-items: center;
+            margin: 2rem auto;
+            padding: 1rem;
+            max-width: 900px;
+            background-color: #309789; /* Verde */
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+            border-bottom: 3px solid #084239;
         }
 
-        .vocabulario{ /* todo el bloque del vocabulario   */
-        margin: 2rem;
-        margin-left: 5rem;
-        }
-
-        /* Imágenes */
-        section div img {
-            width: 300px;       /* Todas del mismo tamaño */
-            height: 200px;
-            border-radius:  8px;
-            border-style: solid;
-            border-width: 3px;
-        }
-
-        .container{ /* bluque de palabra */
-        display: flex;
-        margin: 2rem ;
-        border-bottom: 3px solid;
-        align-items: center;
-        }
-
-        img{
+        /* Imagen a la derecha con borde negro */
+        .container img {
+            width: 200px;
+            height: 150px;
+            border-radius: 8px;
             margin-left: auto;
             margin-right: 2rem;
-            margin-bottom: 1rem;
+            border: 3px solid #000;
         }
-        #btnVolver{
-            background-color: #7add71;
+
+        /* Texto alineado a la izquierda */
+        .container p {
+            text-align: left;
+            margin: 0;
+        }
+
+        /* Botón volver */
+        #btnVolver {
+            background-color: #ffcc00; /* Amarillo para contraste */
             border-radius: 2rem;
-            padding: 1rem;
+            padding: 1rem 2rem;
             text-decoration: none;
-            border-style:solid ;
-            border-color:#2c3e50;
-
+            border: solid 1px #818181;
+            color: #1a1d2b;
+            display: inline-block;
+            margin-top: 2rem;
+            font-weight: bold;
+            transition: 0.3s;
         }
 
-        footer{
-            background-color: #4a90e2;
-        padding: 2rem;
-        margin-top: 1rem;
+        #btnVolver:hover {
+            background-color: #ffd633;
+            transform: scale(1.05);
         }
 
+        footer {
+            background-color: #185850;
+            padding: 2rem;
+            margin-top: 2rem;
+        }
     </style>
 </head>
-<style>
-    /* Aplica a toda la página */
-body {
-    font-family: Arial, Helvetica, sans-serif; /* Tipo de letra */
-    background-color: #f0f4f8; /* Fondo suave */
-    margin: 0;
-    padding: 0;
-    text-align: center; /* Centra el contenido */
-}
-
-/* Encabezado */
-header {
-    background-color: #4a90e2; /* Azul bonito */
-    color: white;
-    padding: 20px;
-    border-bottom: 5px solid #2c3e50;
-}
-
-/* Imágenes */
-section div img {
-    width: 300px;       /* Todas del mismo tamaño */
-    height: 200px;
-    border-radius: 8px;
-}
-
-#btnVolver{
-    background-color: #057e23;
-    border-radius: 2rem;
-    padding: 1rem;
-    text-decoration: none;
-    border-style:solid ;
-    border-color:#818181;
-    color: #ffffff;
-}
-
-footer{
-    background-color: #4a90e2;
-padding: 2rem;
-margin-top: 1rem;
-}
-
-</style>
 <body>
     <header>
         <h1>Diccionario - Letra H</h1>
@@ -116,35 +85,33 @@ margin-top: 1rem;
 
     <section class="vocabulario">
         <div class="container">
-            <p><b>1. Hacha:</b >Herramienta con una hoja afilada y un mango, usada para cortar madera. </p>
-            <img src="imagenes/LetraH/Hacha.webp" alt="Árbol">
+            <p><b>1. Hacha:</b> Herramienta con una hoja afilada y un mango, usada para cortar madera.</p>
+            <img src="imagenes/LetraH/Hacha.webp" alt="Hacha">
         </div>
 
         <div class="container">
-            <p><b>2. Hambre:</b>La necesidad o ganas de comer. </p>
-            <img src="imagenes/LetraH/Hambre.jpg" alt="Avión">
+            <p><b>2. Hambre:</b> La necesidad o ganas de comer.</p>
+            <img src="imagenes/LetraH/Hambre.jpg" alt="Hambre">
         </div>
 
         <div class="container">
-            <p><b>3. Hamaca:</b> Una cama o columpio hecho de tela, que se cuelga entre dos puntos. </p>
-            <img src="imagenes/LetraH/Hamaca.jpg" alt="Agua">
+            <p><b>3. Hamaca:</b> Una cama o columpio hecho de tela, que se cuelga entre dos puntos.</p>
+            <img src="imagenes/LetraH/Hamaca.jpg" alt="Hamaca">
         </div>
 
         <div class="container">
-            <p><b>4. Hormiga:</b> Insecto pequeño que vive en colonias organizadas. </p>
-            <img src="imagenes/LetraH/Hormiga.jpg" alt="Amigo">
+            <p><b>4. Hormiga:</b> Insecto pequeño que vive en colonias organizadas.</p>
+            <img src="imagenes/LetraH/Hormiga.jpg" alt="Hormiga">
         </div>
 
         <div class="container">
-            <p><b>5. Hielo:</b> Agua en estado sólido, por debajo de 0°C de temperatura. </p>
-            <img src="imagenes/LetraH/Hielo.avif" alt="Animal">
+            <p><b>5. Hielo:</b> Agua en estado sólido, por debajo de 0°C de temperatura.</p>
+            <img src="imagenes/LetraH/Hielo.avif" alt="Hielo">
         </div>
-
-        
-
     </section>
-    <footer>    
-            <a href="home.html" id="btnVolver">Volver al inicio</a>
-        </footer>
+
+    <footer>
+        <a href="home.html" id="btnVolver">Volver al inicio</a>
+    </footer>
 </body>
 </html>
